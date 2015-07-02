@@ -1,4 +1,3 @@
-library(combinat)
 
 
 # a few functions to deal with permuting labels so that the are concordant across runs.

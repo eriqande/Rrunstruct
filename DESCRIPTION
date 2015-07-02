@@ -12,4 +12,4 @@ Description: Some wrappers to run structure from the parameter sets created by t
   plotting them in the front end.)
 License: GPL
 LazyData: TRUE
-Depends: dplyr, stringr, ggplot2, tidyr
+Depends: dplyr, stringr, ggplot2, tidyr, combinat

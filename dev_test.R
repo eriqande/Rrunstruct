@@ -1,11 +1,11 @@
 
 
 
-setwd("~/Desktop/scottish_cats/new")
-structure_runs("Boing", 1:4, 3, 1234)
+#setwd("~/Desktop/scot-cats/PlainPars")
+#structure_runs("Boing", 1:4, 3, 1234)
 
-results <- read_results("Boing")
-traces <- read_traces("Boing")
+results <- read_results("struct-runs-from-r-1")
+traces <- read_traces("struct-runs-from-r-1")
 
 res2 <- MAP_cluster(results)
 
