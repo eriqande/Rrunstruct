@@ -5,11 +5,17 @@ Version: 0.1
 Date: 2015-06-30
 Author: Eric C. Anderson
 Maintainer: Who to complain to <eric.anderson@noaa.gov>
-Description: Some wrappers to run structure from the parameter sets created by the
-  Java Structure Front End, and then extract some results and things.  This is
-  just a little thing I whacked together because I was distraught that there was
-  no way to recover the traces different values from the Java front end (except by
-  plotting them in the front end.)
+Description: Some wrappers to run structure from the parameter sets created by
+    the Java Structure Front End, and then extract some results and things. This is
+    just a little thing I whacked together because I was distraught that there was
+    no way to recover the traces different values from the Java front end (except by
+    plotting them in the front end.)
 License: GPL
 LazyData: TRUE
-Depends: dplyr, stringr, ggplot2, tidyr, combinat
+Depends:
+    dplyr,
+    stringr,
+    ggplot2,
+    tidyr,
+    combinat
+RoxygenNote: 5.0.1
