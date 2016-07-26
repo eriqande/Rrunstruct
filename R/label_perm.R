@@ -102,7 +102,7 @@ relabel_traces <- function(tr, max_perms) {
 fix_clust <- function(cl, mp, k) {
   mp <- as.numeric(as.character(mp[1]))
   k <- as.numeric(as.character(k[1]))
-
+  cl <- as.numeric(as.character(cl))
   perm <- permn(k)[[mp]]
 
   perm[cl]
