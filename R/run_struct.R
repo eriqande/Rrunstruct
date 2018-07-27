@@ -44,7 +44,8 @@ struct_binary_path <- function() {
 
   system2(command = bin,
           args = paste("-K", K, "-o", outfile, "-D", seed),
-          stdout = stdoutf)
+          stdout = stdoutf,
+          stderr = stdoutf)
 
   message(paste("Done with structure. Results written to file", outfile, "at", date(), "\n"))
 }
